@@ -1,0 +1,1 @@
+{"ast":null,"code":"import p001 from './001';\nimport p002 from './002';\nexport default [p001, p002];","map":null,"metadata":{},"sourceType":"module"}

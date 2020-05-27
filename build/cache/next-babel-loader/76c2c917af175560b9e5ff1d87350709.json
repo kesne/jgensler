@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport mapJSONToComps from './PostComps';\nexport default function Post(post) {\n  return __jsx(\"div\", null, mapJSONToComps(post));\n}","map":null,"metadata":{},"sourceType":"module"}

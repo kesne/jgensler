@@ -9,18 +9,16 @@ const TopBar = styled(AntHeader)`
     align-items: center;
 `;
 
-const TitleTest = styled(Typography.Title)`
-    && {
-        margin-bottom: 0;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-`;
+// const TitleTest = styled(Typography.Title)`
+//     margin-bottom: 0 !important;
+//     color: white !important;
+//     font-family: 'Montserrat', sans-serif !important;
+// `;
 
 export default function Header() {
     return (
         <TopBar>
-            <TitleTest level={1}>J Gensler</TitleTest>
+            <Typography.Title level={1} inverse>J Gensler</TitleTest>
         </TopBar>
     );
 }
