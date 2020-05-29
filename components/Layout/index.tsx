@@ -1,15 +1,14 @@
-import { Layout } from 'antd';
 import Header from './Header';
 
 export default function withLayout(Component: (props: any) => JSX.Element) {
     return (props: any) => {
         return (
-            <Layout>
+            <>
                 <Header />
-                <Layout.Content>
+                <div className="container mx-auto flex-1 mt-8">
                     <Component {...props} />
-                </Layout.Content>
-            </Layout>
+                </div>
+            </>
         );
     };
 }
